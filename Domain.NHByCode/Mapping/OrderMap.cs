@@ -1,4 +1,5 @@
 using NHibernate;
+using NHibernate.Mapping.ByCode;
 using NHibernate.Mapping.ByCode.Conformist;
 
 namespace Domain.NHByCode.Mapping
@@ -7,10 +8,14 @@ namespace Domain.NHByCode.Mapping
     {
         public OrderMap()
         {
-            Table("Orders");
-            //ManyToOne(x => x.Customer, map => map.Column("CustomerId"));
+            //ManyToOne(x => x.Customer, manyToOne =>
+            //                               {
+            //                                   manyToOne.Column("OrdersId");
+            //                                   manyToOne.Cascade(Cascade.All);
+            //                                   manyToOne.NotNullable(true);
+            //                               });
+
             Property(x => x.OrderDate);
-            //Bag(x => x.Items, map => map.Key(k => k.Column("OrderId")));
         }
     }
 }

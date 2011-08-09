@@ -1,4 +1,6 @@
-﻿using NHibernate.Mapping.ByCode;
+﻿using System;
+using System.Collections.Generic;
+using NHibernate.Mapping.ByCode;
 
 namespace Domain.NHByCode.Mapping
 {
@@ -12,13 +14,25 @@ namespace Domain.NHByCode.Mapping
     /// </summary>
     public static class Conventions
     {
-         public static void WithConventions(this ModelMapper mapper)
+        private static readonly List<string> ReservedSqlKeywords = new List<string> {"Order", "User", "Index"};
+
+        public static void WithConventions(this ModelMapper mapper)
          {
              mapper.BeforeMapClass += (modelInspector, type, classCustomizer) =>
                                          {
                                              classCustomizer.Id(c => c.Column(type.Name + "Id"));
                                              classCustomizer.Id(c => c.Generator(Generators.GuidComb));
+                                             classCustomizer.Table(ReservedTableNameHandler(type));
                                           };
          }
+
+        private static string ReservedTableNameHandler(Type type)
+        {
+            // http://www.nhforge.org/doc/nh/en/index.html#mapping-quotedidentifiers
+            var tableName = type.Name;
+            return ReservedSqlKeywords.Contains(type.Name) 
+                ? "`" + tableName + "`" 
+                : tableName;
+        }
     }
 }

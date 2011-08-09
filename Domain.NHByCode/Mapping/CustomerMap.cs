@@ -9,12 +9,17 @@ namespace Domain.NHByCode.Mapping
         {
             Property(x => x.Name);
             Property(x => x.Email);
-            Bag(x => x.Orders, map =>
-                                   {
-                                       map.Table("Customer_Orders");
-                                       map.Key(k => k.Column("CustomerId"));
-                                       map.Cascade(Cascade.All);
-                                   });
+            //Bag(x => x.Orders, bag =>
+            //{
+            //    bag.Key(key =>
+            //    {
+            //        key.Column("CustomerId");
+            //        key.ForeignKey("FK_Customer_Orders");
+            //    });
+            //    bag.Table("Customer_Orders");
+            //    bag.Cascade(Cascade.All.Include(Cascade.Remove));
+            //    bag.Fetch(CollectionFetchMode.Subselect);
+            //});
             
         }
     }

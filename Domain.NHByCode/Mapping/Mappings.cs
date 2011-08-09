@@ -7,7 +7,7 @@ namespace Domain.NHByCode.Mapping
     {
         public static void WithMappings(this ModelMapper mapper, Configuration configuration)
         {
-            mapper.AddMappings(typeof(CategoryMap).Assembly.GetTypes());
+            mapper.AddMappings(typeof(CustomerMap).Assembly.GetTypes());
             configuration.AddMapping(mapper.CompileMappingForAllExplicitlyAddedEntities());
          }
     }

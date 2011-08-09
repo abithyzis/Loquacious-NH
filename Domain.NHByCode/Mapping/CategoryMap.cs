@@ -18,13 +18,19 @@ namespace Domain.NHByCode.Mapping
             Property(x => x.Name, m => m.Length(450));
             Property(x => x.Description, m => m.Length(2000));
 
-            //Bag(x => x.SubCategories, bag =>
-            //                              {
-            //                                  bag.Fetch(CollectionFetchMode.Subselect);
-            //                                  bag.Cascade(Cascade.All);
-            //                                  bag.Table("Category_Product");
-            //                                  bag.Key(k => k.Column("CategoryId"));
-            //                              });
+            Bag(x => x.SubCategories, bag =>
+                                          {
+                                              bag.Key(k => k.Column("ParentId"));
+                                              bag.Inverse(true);
+                                          } ,
+                                       ce => ce.OneToMany());
+
+            ManyToOne(x => x.Parent, manyToOne =>
+                                         {
+                                             manyToOne.Column("ParentId");
+                                             manyToOne.Lazy(LazyRelation.NoLazy);
+                                             manyToOne.NotNullable(false);
+                                         });
         }
     }
 }
