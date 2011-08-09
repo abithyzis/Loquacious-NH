@@ -1,4 +1,5 @@
-﻿using NHibernate.Mapping.ByCode.Conformist;
+﻿using NHibernate.Mapping.ByCode;
+using NHibernate.Mapping.ByCode.Conformist;
 
 namespace Domain.NHByCode.Mapping
 {
@@ -8,7 +9,13 @@ namespace Domain.NHByCode.Mapping
         {
             Property(x => x.Name);
             Property(x => x.Email);
-            //Bag(x => x.Orders, map => map.Key(k => k.Column("CustomerId")));
+            Bag(x => x.Orders, map =>
+                                   {
+                                       map.Table("Customer_Orders");
+                                       map.Key(k => k.Column("CustomerId"));
+                                       map.Cascade(Cascade.All);
+                                   });
+            
         }
     }
 }
