@@ -10,7 +10,7 @@ namespace Domain.NHByCode.Mapping
         {
             //ManyToOne(x => x.Customer, manyToOne =>
             //                               {
-            //                                   manyToOne.Column("OrdersId");
+            //                                   manyToOne.Column("OrderId");
             //                                   manyToOne.Cascade(Cascade.All);
             //                                   manyToOne.NotNullable(true);
             //                               });

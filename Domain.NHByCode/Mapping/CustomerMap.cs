@@ -9,18 +9,18 @@ namespace Domain.NHByCode.Mapping
         {
             Property(x => x.Name);
             Property(x => x.Email);
-            //Bag(x => x.Orders, bag =>
-            //{
-            //    bag.Key(key =>
-            //    {
-            //        key.Column("CustomerId");
-            //        key.ForeignKey("FK_Customer_Orders");
-            //    });
-            //    bag.Table("Customer_Orders");
-            //    bag.Cascade(Cascade.All.Include(Cascade.Remove));
-            //    bag.Fetch(CollectionFetchMode.Subselect);
-            //});
-            
+            Bag(x => x.Orders, bag =>
+                                {
+                                    bag.Key(key =>
+                                    {
+                                        key.Column("OrderId");
+                                        key.ForeignKey("FK_Customer_Orders");
+                                    });
+                                    bag.Table("Customer_Orders");
+                                    bag.Cascade(Cascade.All.Include(Cascade.Remove));
+                                    bag.Fetch(CollectionFetchMode.Subselect);
+                                },
+                                ce => ce.ManyToMany(m => m.Column("ProductId")));
         }
     }
 }

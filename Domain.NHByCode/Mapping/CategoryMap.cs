@@ -20,14 +20,14 @@ namespace Domain.NHByCode.Mapping
 
             Bag(x => x.SubCategories, bag =>
                                           {
-                                              bag.Key(k => k.Column("ParentId"));
+                                              bag.Key(k => k.Column("ParentCategoryId"));
                                               bag.Inverse(true);
                                           } ,
                                        ce => ce.OneToMany());
 
             ManyToOne(x => x.Parent, manyToOne =>
                                          {
-                                             manyToOne.Column("ParentId");
+                                             manyToOne.Column("ParentCategoryId");
                                              manyToOne.Lazy(LazyRelation.NoLazy);
                                              manyToOne.NotNullable(false);
                                          });
