@@ -15,6 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common stuff", "Common stuf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B1DE0244-6985-4F82-8DFA-320FB19FD8AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D63EDBFB-CBE4-4BC2-9F2E-B247C3ACDD80}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,8 +47,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7F7CD37B-FC19-4DB6-AE9F-99655DC443BA} = {1AAD7F80-25AA-4315-9538-BD005D70B411}
 		{1BF0C12D-368A-4CF6-AD1E-A53AB953B992} = {1AAD7F80-25AA-4315-9538-BD005D70B411}
+		{7F7CD37B-FC19-4DB6-AE9F-99655DC443BA} = {1AAD7F80-25AA-4315-9538-BD005D70B411}
 		{F7ACE86E-6BCD-4818-A3BD-10A2D570D171} = {A73092ED-5A61-4C96-947C-D43633D0A943}
 		{B1DE0244-6985-4F82-8DFA-320FB19FD8AE} = {8CA1F871-D78A-42D3-B6E6-7166EB237C39}
 	EndGlobalSection

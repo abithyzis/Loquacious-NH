@@ -7,8 +7,10 @@ namespace Domain.NHByCode.Mapping
     {
         public CategoryMap()
         {
+            // **************************************************
             // Mapping of Id here will take precedence over the 
             // global conventions configured in the ModelMapper.
+            // **************************************************
             //Id(x => x.Id, map =>
             //{
             //    map.Column("Id");
@@ -18,10 +20,10 @@ namespace Domain.NHByCode.Mapping
             Property(x => x.Name, m => m.Length(450));
             Property(x => x.Description, m => m.Length(2000));
 
-            Bag(x => x.SubCategories, bag =>
+            Set(x => x.SubCategories, set =>
                                           {
-                                              bag.Key(k => k.Column("ParentCategoryId"));
-                                              bag.Inverse(true);
+                                              set.Key(k => k.Column("ParentCategoryId"));
+                                              set.Inverse(true);
                                           } ,
                                        ce => ce.OneToMany());
 

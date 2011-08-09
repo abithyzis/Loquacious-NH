@@ -7,6 +7,6 @@ namespace Domain
     {
         public virtual Customer Customer { get; set; }
         public virtual DateTime OrderDate { get; set; }
-        //public virtual IEnumerable<OrderItem> Items { get; set; }
+        public virtual IEnumerable<OrderItem> Items { get; set; }
     }
 }

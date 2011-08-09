@@ -62,15 +62,18 @@
     <Compile Include="Mapping\Conventions.cs" />
     <Compile Include="Mapping\CustomerMap.cs" />
     <Compile Include="Mapping\Mappings.cs" />
+    <Compile Include="Mapping\OrderItemMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Mapping\OrderMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mapping\ProductMap.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="NHibernateSessionFactory.cs" />
     <Compile Include="NHibernateSessionProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,6 +7,8 @@ namespace Domain.NHByCode.Mapping
     {
         public OrderMap()
         {
+            Property(x => x.OrderDate);
+
             ManyToOne(x => x.Customer, manyToOne =>
                                            {
                                                manyToOne.Column("CustomerId");
@@ -14,7 +16,17 @@ namespace Domain.NHByCode.Mapping
                                                manyToOne.NotNullable(true);
                                            });
 
-            Property(x => x.OrderDate);
+            //Bag(x => x.Items, bag =>
+            //                      {
+            //                          bag.Key(key =>
+            //                          {
+            //                              key.Column("OrderItemId");
+            //                              key.ForeignKey("FK_Order_OrderItem");
+            //                          });
+            //                          bag.Table("Order_OrderItem");
+            //                          bag.Cascade(Cascade.All.Include(Cascade.Remove));
+            //                          bag.Fetch(CollectionFetchMode.Subselect);
+            //                      });
         }
     }
 }
