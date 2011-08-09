@@ -16,11 +16,11 @@ namespace Domain.NHByCode.Mapping
                                         key.Column("OrderId");
                                         key.ForeignKey("FK_Customer_Orders");
                                     });
-                                    bag.Table("Customer_Orders");
+                                    bag.Table("Customer_Order");
                                     bag.Cascade(Cascade.All.Include(Cascade.Remove));
                                     bag.Fetch(CollectionFetchMode.Subselect);
                                 },
-                                ce => ce.ManyToMany(m => m.Column("ProductId")));
+                                ce => ce.ManyToMany(m => m.Column("CustomerId")));
         }
     }
 }
