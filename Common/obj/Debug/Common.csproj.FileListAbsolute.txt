@@ -1,0 +1,5 @@
+D:\Open Source\Loquacious-NH\Common\bin\Debug\Common.dll
+D:\Open Source\Loquacious-NH\Common\bin\Debug\Common.pdb
+D:\Open Source\Loquacious-NH\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Open Source\Loquacious-NH\Common\obj\Debug\Common.dll
+D:\Open Source\Loquacious-NH\Common\obj\Debug\Common.pdb

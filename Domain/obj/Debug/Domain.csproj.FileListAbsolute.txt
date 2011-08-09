@@ -1,0 +1,9 @@
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\Domain.dll
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\Domain.pdb
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\Iesi.Collections.dll
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\NHibernate.dll
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\Iesi.Collections.xml
+D:\Open Source\Loquacious-NH\Domain\bin\Debug\NHibernate.xml
+D:\Open Source\Loquacious-NH\Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Open Source\Loquacious-NH\Domain\obj\Debug\Domain.dll
+D:\Open Source\Loquacious-NH\Domain\obj\Debug\Domain.pdb
