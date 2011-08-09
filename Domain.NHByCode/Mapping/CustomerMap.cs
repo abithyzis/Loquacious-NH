@@ -15,7 +15,7 @@ namespace Domain.NHByCode.Mapping
                                     set.Key(key =>
                                     {
                                         key.Column("OrderId");
-                                        key.ForeignKey("FK_Customer_Orders");
+                                        key.ForeignKey("FK_Customer_Order");
                                     });
                                     set.Table("Customer_Order");
                                     set.Cascade(Cascade.All.Include(Cascade.Remove));
