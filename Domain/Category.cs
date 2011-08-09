@@ -6,7 +6,7 @@ namespace Domain
     {
         public Category()
         {
-            //Products = new List<Product>();
+            Products = new List<Product>();
             SubCategories = new List<Category>();
         }
 
@@ -14,7 +14,6 @@ namespace Domain
         public virtual string Description { get; set; }
         public virtual Category Parent { get; set; }
         public virtual IEnumerable<Category> SubCategories { get; set; }
-
-        //public virtual IList<Product> Products { get; set; }
+        public virtual IList<Product> Products { get; set; }
     }
 }

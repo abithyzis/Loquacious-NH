@@ -33,6 +33,17 @@ namespace Domain.NHByCode.Mapping
                                              manyToOne.Lazy(LazyRelation.NoLazy);
                                              manyToOne.NotNullable(false);
                                          });
+
+            Set(x => x.Products, set =>
+                                    {
+                                        set.Key(key =>
+                                        {
+                                            key.Column("ProductId");
+                                            key.ForeignKey("FK_Product_Category_ProductId");
+                                        });
+                                        set.Table("Product_Category");
+                                    },
+                                    ce => ce.ManyToMany(m => m.Column("CategoryId")));
         }
     }
 }

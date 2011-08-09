@@ -27,6 +27,14 @@ alter table OrderItem  drop constraint FK_Order_OrderItem
 alter table Category  drop constraint FKFA88A7FAEE84E9A8
 
 
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK_Product_Category_CategoryId]') AND parent_object_id = OBJECT_ID('Product_Category'))
+alter table Product_Category  drop constraint FK_Product_Category_CategoryId
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK_Product_Category_ProductId]') AND parent_object_id = OBJECT_ID('Product_Category'))
+alter table Product_Category  drop constraint FK_Product_Category_ProductId
+
+
     if exists (select * from dbo.sysobjects where id = object_id(N'Customer') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Customer
 
     if exists (select * from dbo.sysobjects where id = object_id(N'Customer_Order') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Customer_Order
@@ -36,6 +44,8 @@ alter table Category  drop constraint FKFA88A7FAEE84E9A8
     if exists (select * from dbo.sysobjects where id = object_id(N'OrderItem') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table OrderItem
 
     if exists (select * from dbo.sysobjects where id = object_id(N'Category') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Category
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Product_Category') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Product_Category
 
     if exists (select * from dbo.sysobjects where id = object_id(N'Product') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Product
 
@@ -76,10 +86,16 @@ alter table Category  drop constraint FKFA88A7FAEE84E9A8
        primary key (CategoryId)
     )
 
+    create table Product_Category (
+        ProductId UNIQUEIDENTIFIER not null,
+       CategoryId UNIQUEIDENTIFIER not null,
+       primary key (CategoryId, ProductId)
+    )
+
     create table Product (
         ProductId UNIQUEIDENTIFIER not null,
        Name NVARCHAR(450) null,
-       Description NVARCHAR(2000) null,
+       Description NVARCHAR(MAX) null,
        primary key (ProductId)
     )
 
@@ -116,4 +132,14 @@ alter table Category  drop constraint FKFA88A7FAEE84E9A8
     alter table Category 
         add constraint FKFA88A7FAEE84E9A8 
         foreign key (ParentCategoryId) 
+        references Category
+
+    alter table Product_Category 
+        add constraint FK_Product_Category_CategoryId 
+        foreign key (CategoryId) 
+        references Product
+
+    alter table Product_Category 
+        add constraint FK_Product_Category_ProductId 
+        foreign key (ProductId) 
         references Category
