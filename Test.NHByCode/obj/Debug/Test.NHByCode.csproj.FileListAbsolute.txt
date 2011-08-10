@@ -35,3 +35,9 @@ D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Common.pdb
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\ResolveAssemblyReference.cache
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\Test.NHByCode.dll
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\Test.NHByCode.pdb
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Domain.NHCommon.dll
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Domain.NHCommon.pdb
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Test.Common.dll
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\AutoPoco.dll
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\HibernatingRhinos.Profiler.Appender.v4.0.dll
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Test.Common.pdb

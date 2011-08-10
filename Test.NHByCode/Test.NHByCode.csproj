@@ -141,9 +141,17 @@
       <Project>{1BF0C12D-368A-4CF6-AD1E-A53AB953B992}</Project>
       <Name>Domain.NHByCode</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Domain.NHCommon\Domain.NHCommon.csproj">
+      <Project>{DCB0FCEF-16D8-44DC-8444-9B457C9A57D0}</Project>
+      <Name>Domain.NHCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{7F7CD37B-FC19-4DB6-AE9F-99655DC443BA}</Project>
       <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Test.Common\Test.Common.csproj">
+      <Project>{16BD4115-0E05-41EE-8A2E-2FBF543595D6}</Project>
+      <Name>Test.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

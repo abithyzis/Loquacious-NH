@@ -1,8 +1,9 @@
 ﻿using Castle.MicroKernel.Facilities;
 using Castle.MicroKernel.Registration;
 using Common;
-using Domain.NHByCode.Config;
 using Domain.NHByCode.Mapping;
+using Domain.NHCommon;
+using Domain.NHCommon.Config;
 using Domain.Persistence;
 using NHibernate.Cfg;
 using NHibernate.Mapping.ByCode;

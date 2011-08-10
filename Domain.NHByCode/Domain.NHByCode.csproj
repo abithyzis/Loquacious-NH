@@ -54,8 +54,6 @@
   <ItemGroup>
     <Compile Include="Bootstrapper\NHibernateFacility.cs" />
     <Compile Include="Bootstrapper\NHibernateInstaller.cs" />
-    <Compile Include="Config\ConfigurationProvider.cs" />
-    <Compile Include="Config\IConfigurationProvider.cs" />
     <Compile Include="Mapping\CategoryMap.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -71,8 +69,6 @@
     <Compile Include="Mapping\ProductMap.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="NHibernateSessionFactory.cs" />
-    <Compile Include="NHibernateSessionProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +78,10 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{B1DE0244-6985-4F82-8DFA-320FB19FD8AE}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.NHCommon\Domain.NHCommon.csproj">
+      <Project>{DCB0FCEF-16D8-44DC-8444-9B457C9A57D0}</Project>
+      <Name>Domain.NHCommon</Name>
     </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{7F7CD37B-FC19-4DB6-AE9F-99655DC443BA}</Project>

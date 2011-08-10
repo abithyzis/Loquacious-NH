@@ -1,7 +1,6 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Entity.cs" caret="180" fromTop="8" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/d:Persistence/f:ISessionFactory.cs" caret="52" fromTop="3" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/d:Persistence/f:ISessionProvider.cs" caret="113" fromTop="6" />
       <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:NHibernateSessionProvider.cs" caret="586" fromTop="20" />
@@ -15,51 +14,53 @@
       <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/f:nhibernate.ce.config" caret="514" fromTop="6" />
       <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateFacility.cs" caret="1231" fromTop="20" />
       <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Config/f:ConfigurationProvider.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="123" fromTop="5" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="438" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="141" fromTop="5" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="125" fromTop="5" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:README.txt" caret="722" fromTop="10" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="445" fromTop="15" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="236" fromTop="8" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="436" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="0" fromTop="0" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="236" fromTop="9" />
-      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:CanCreateConfiguration.cs" caret="620" fromTop="22" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="275" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="226" fromTop="9" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="354" fromTop="11" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="945" fromTop="23" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="0" fromTop="0" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="0" fromTop="0" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Entity.cs" caret="0" fromTop="0" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="880" fromTop="19" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="297" fromTop="9" />
+      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:CanCreateConfiguration.cs" caret="185" fromTop="6" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="2094" fromTop="21" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="75" fromTop="4" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="75" fromTop="4" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="410" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="486" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="632" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="1020" fromTop="21" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="95" fromTop="3" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateFacility.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="409" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateFacility.cs" caret="1231" fromTop="20" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="438" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="345" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="509" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="1110" fromTop="26" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:README.txt" caret="125" fromTop="6" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:README.txt" caret="667" fromTop="9" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="271" fromTop="15" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="274" fromTop="12" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="186" fromTop="7" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="445" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="141" fromTop="5" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="357" fromTop="14" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="357" fromTop="17" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="173" fromTop="4" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="357" fromTop="13" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="357" fromTop="20" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="125" fromTop="5" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="236" fromTop="9" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="275" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="218" fromTop="9" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="945" fromTop="15" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="988" fromTop="22" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="353" fromTop="11" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="479" fromTop="5" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="280" fromTop="3" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="295" fromTop="11" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="810" fromTop="13" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="123" fromTop="5" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="1046" fromTop="24" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="1043" fromTop="21" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="765" fromTop="20" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="234" fromTop="9" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="211" fromTop="8" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="1018" fromTop="24" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="350" fromTop="10" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="599" fromTop="17" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="1348" fromTop="26" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="149" fromTop="8" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="311" fromTop="12" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="151" fromTop="8" />
+      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="491" fromTop="16" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="957" fromTop="20" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="1851" fromTop="17" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="2094" fromTop="21" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="146" fromTop="1" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="1458" fromTop="47" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="897" fromTop="23" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="1219" fromTop="17" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="615" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -82,7 +83,7 @@
   </SettingsComponent>
   <UnitTestSessions>
     <Session>
-      <Name>Session #1</Name>
+      <Name>Session #4</Name>
       <Elements>
         <UnitTestElement Provider="nUnit" Id="Test.NHByCode.Configurations.CanCreateConfiguration" type="NUnitTestFixtureElement" Project="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" />
         <UnitTestElement Provider="nUnit" Id="Test.NHByCode.Configurations.CanCreateConfiguration.it_can_create_actual_database_entities" ParentId="Test.NHByCode.Configurations.CanCreateConfiguration" type="NUnitTestElement" TypeName="Test.NHByCode.Configurations.CanCreateConfiguration" MethodName="it_can_create_actual_database_entities" Project="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" />
@@ -93,20 +94,20 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="Property`1" priority="26" />
-      <Item value="x" priority="95" />
-      <Item value="m" priority="95" />
-      <Item value="return" priority="95" />
+      <Item value="x" priority="255" />
+      <Item value="m" priority="191" />
+      <Item value="return" priority="127" />
       <Item value="null" priority="31" />
       <Item value="ctor" priority="31" />
       <Item value="Configuration`0" priority="31" />
       <Item value="configuration" priority="96" />
-      <Item value="protected" priority="64" />
-      <Item value="private" priority="31" />
-      <Item value="static" priority="63" />
+      <Item value="protected" priority="96" />
+      <Item value="private" priority="63" />
+      <Item value="static" priority="127" />
       <Item value="ConfigurationDescriptor" priority="31" />
-      <Item value="new" priority="127" />
+      <Item value="new" priority="159" />
       <Item value="ConfigurationProvider" priority="202" />
-      <Item value="var" priority="31" />
+      <Item value="var" priority="95" />
       <Item value="Category`0" priority="31" />
       <Item value="configFilePath" priority="58" />
       <Item value="public" priority="127" />
@@ -117,30 +118,51 @@
       <Item value="void" priority="127" />
       <Item value="Context`0" priority="31" />
       <Item value="SqlCeEngine" priority="28" />
-      <Item value="ce" priority="31" />
+      <Item value="ce" priority="127" />
       <Item value="Upgrade`0" priority="31" />
-      <Item value="this" priority="31" />
-      <Item value="mapper" priority="96" />
+      <Item value="this" priority="63" />
+      <Item value="mapper" priority="128" />
       <Item value="generatorMapping" priority="31" />
       <Item value="Generators`0" priority="63" />
-      <Item value="classCustomizer" priority="31" />
+      <Item value="classCustomizer" priority="63" />
       <Item value="modelInspector" priority="32" />
       <Item value="c" priority="63" />
-      <Item value="type" priority="31" />
-      <Item value="Bag`1" priority="63" />
-      <Item value="bag" priority="191" />
+      <Item value="type" priority="223" />
+      <Item value="Bag`1" priority="95" />
+      <Item value="bag" priority="351" />
       <Item value="Cascade`0" priority="63" />
       <Item value="k" priority="31" />
       <Item value="decimal" priority="31" />
       <Item value="Table`0" priority="31" />
+      <Item value="map" priority="95" />
+      <Item value="ManyToOne`1" priority="63" />
+      <Item value="manyToOne" priority="351" />
+      <Item value="CustomerMap`0" priority="26" />
+      <Item value="string" priority="31" />
+      <Item value="TypeExtensions`0" priority="31" />
+      <Item value="List" priority="31" />
+      <Item value="const" priority="31" />
+      <Item value="ReservedSqlKeywords" priority="31" />
+      <Item value="tableName" priority="63" />
+      <Item value="LazyRelation`0" priority="31" />
+      <Item value="true" priority="63" />
+      <Item value="false" priority="31" />
+      <Item value="p" priority="31" />
+      <Item value="IComponentElementMapper" priority="31" />
+      <Item value="Set`1" priority="31" />
+      <Item value="set" priority="63" />
+      <Item value="key" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.Category">
       <Item value="Name" priority="26" />
       <Item value="Description" priority="27" />
       <Item value="SubCategories" priority="53" />
+      <Item value="Parent" priority="26" />
+      <Item value="Products" priority="27" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IPropertyMapper">
       <Item value="Length`0" priority="26" />
+      <Item value="NotNullable`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.ModelMapper">
       <Item value="CompileMappingForAllExplicitlyAddedEntities`0" priority="26" />
@@ -177,35 +199,70 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IClassAttributesMapper">
       <Item value="Id`0" priority="26" />
+      <Item value="Table`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Type">
-      <Item value="Name" priority="26" />
+      <Item value="Name" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IBagPropertiesMapper`2">
       <Item value="Fetch`0" priority="53" />
-      <Item value="Cascade`0" priority="53" />
-      <Item value="Table`0" priority="26" />
-      <Item value="Key`0" priority="26" />
+      <Item value="Cascade`0" priority="80" />
+      <Item value="Table`0" priority="81" />
+      <Item value="Key`0" priority="53" />
+      <Item value="Inverse`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NHibernate.Mapping.ByCode.CollectionFetchMode">
       <Item value="Subselect" priority="45" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NHibernate.Mapping.ByCode.Cascade">
       <Item value="DeleteOrphans" priority="26" />
-      <Item value="All" priority="26" />
+      <Item value="All" priority="81" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IKeyMapper`1">
-      <Item value="Column`0" priority="26" />
+      <Item value="Column`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.Order">
-      <Item value="OrderDate" priority="27" />
+      <Item value="OrderDate" priority="50" />
+      <Item value="Customer" priority="54" />
+      <Item value="Items" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.Customer">
       <Item value="Name" priority="27" />
       <Item value="Email" priority="27" />
+      <Item value="Orders" priority="27" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.OrderItem">
       <Item value="Quantity" priority="27" />
+      <Item value="Product" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IManyToOneMapper">
+      <Item value="Column`0" priority="53" />
+      <Item value="Cascade`0" priority="26" />
+      <Item value="NotNullable`0" priority="53" />
+      <Item value="Lazy`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Mapping.ByCode.LazyRelation">
+      <Item value="NoLazy" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.ICollectionElementRelation`1">
+      <Item value="OneToMany`0" priority="81" />
+      <Item value="ManyToMany`0" priority="109" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IOneToManyMapper">
+      <Item value="Class`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IManyToManyMapper">
+      <Item value="Column`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Product">
+      <Item value="Categories" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.ISetPropertiesMapper`2">
+      <Item value="Table`0" priority="26" />
+      <Item value="Key`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

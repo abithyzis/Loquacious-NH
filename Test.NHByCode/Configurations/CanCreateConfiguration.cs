@@ -1,4 +1,5 @@
-﻿using NHibernate.Tool.hbm2ddl;
+﻿using NHibernate.Dialect;
+using NHibernate.Tool.hbm2ddl;
 using NUnit.Framework;
 
 namespace Test.NHByCode.Configurations

@@ -3,4 +3,8 @@
   <Module PersistentId="1BF0C12D-368A-4CF6-AD1E-A53AB953B992" ModuleId="Domain.NHByCode" />
   <Module PersistentId="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" ModuleId="Test.NHByCode" />
   <Module PersistentId="B1DE0244-6985-4F82-8DFA-320FB19FD8AE" ModuleId="Common" />
+  <Module PersistentId="16BD4115-0E05-41EE-8A2E-2FBF543595D6" ModuleId="Test.Common" />
+  <Module PersistentId="F3ECF361-05BC-43FF-94BA-0FEA0D89E498" ModuleId="Domain.NHByConvention" />
+  <Module PersistentId="DCB0FCEF-16D8-44DC-8444-9B457C9A57D0" ModuleId="Domain.NHCommon" />
+  <Module PersistentId="24E6B33B-B135-4871-BC61-74543117A864" ModuleId="Test.NHByConvention" />
 </Modules>

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Data.SqlServerCe;
-using Domain.NHByCode;
 using Domain.NHByCode.Bootstrapper;
-using Domain.NHByCode.Config;
+using Domain.NHCommon;
+using Domain.NHCommon.Config;
 using NHibernate.Tool.hbm2ddl;
+using Test.Common;
 
 namespace Test.NHByCode.Configurations
 {
@@ -17,6 +18,7 @@ namespace Test.NHByCode.Configurations
             Upgrade();
             BuildConfigurationAndSessionFactory();
             CreateSchema();
+            NHibernateProfilerInitialiser.Initialise();
         }
 
         protected static void CreateSchema()
