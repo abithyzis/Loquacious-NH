@@ -7,12 +7,12 @@ alter table [Order]  drop constraint FKD1436656AFB5CCE4
 alter table Category  drop constraint FKFA88A7FA9D3EBDB4
 
 
-    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKFA88A7FA39506BFC]') AND parent_object_id = OBJECT_ID('Category'))
-alter table Category  drop constraint FKFA88A7FA39506BFC
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK_Product_Category_CategoryId]') AND parent_object_id = OBJECT_ID('Product_Category'))
+alter table Product_Category  drop constraint FK_Product_Category_CategoryId
 
 
-    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK952904EB9D3EBDB4]') AND parent_object_id = OBJECT_ID('Product'))
-alter table Product  drop constraint FK952904EB9D3EBDB4
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK_Product_Category_ProductId]') AND parent_object_id = OBJECT_ID('Product_Category'))
+alter table Product_Category  drop constraint FK_Product_Category_ProductId
 
 
     if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK59090D7B1BAFC1F2]') AND parent_object_id = OBJECT_ID('OrderItem'))
@@ -26,6 +26,8 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
     if exists (select * from dbo.sysobjects where id = object_id(N'[Order]') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table [Order]
 
     if exists (select * from dbo.sysobjects where id = object_id(N'Category') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Category
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Product_Category') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Product_Category
 
     if exists (select * from dbo.sysobjects where id = object_id(N'Product') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Product
 
@@ -46,8 +48,13 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
        Version INT not null,
        Name NVARCHAR(255) null,
        Description NVARCHAR(255) null,
-       ProductId UNIQUEIDENTIFIER null,
        primary key (CategoryId)
+    )
+
+    create table Product_Category (
+        ProductId UNIQUEIDENTIFIER not null,
+       CategoryId UNIQUEIDENTIFIER not null,
+       primary key (CategoryId, ProductId)
     )
 
     create table Product (
@@ -56,7 +63,6 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
        Name NVARCHAR(255) null,
        Description NVARCHAR(255) null,
        Discontinued BIT null,
-       CategoryId UNIQUEIDENTIFIER null,
        primary key (ProductId)
     )
 
@@ -88,14 +94,14 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
         foreign key (CategoryId) 
         references Category
 
-    alter table Category 
-        add constraint FKFA88A7FA39506BFC 
-        foreign key (ProductId) 
+    alter table Product_Category 
+        add constraint FK_Product_Category_CategoryId 
+        foreign key (CategoryId) 
         references Product
 
-    alter table Product 
-        add constraint FK952904EB9D3EBDB4 
-        foreign key (CategoryId) 
+    alter table Product_Category 
+        add constraint FK_Product_Category_ProductId 
+        foreign key (ProductId) 
         references Category
 
     alter table OrderItem 
