@@ -21,8 +21,7 @@ namespace Domain.NHByConvention.Mapping
                                                          ce => ce.ManyToMany(m => m.Column("ProductId"))));
 
             mapper.Class<Category>(map => map.Set(x => x.Products,
-                                                set =>  {
-                                                            set.Key(key =>
+                                                set =>  {   set.Key(key =>
                                                             {
                                                                 key.Column("ProductId");
                                                                 key.ForeignKey(
@@ -34,8 +33,7 @@ namespace Domain.NHByConvention.Mapping
 
             // Initially the SubCategories and Parent were NOT mapped.
             mapper.Class<Category>(map => map.Set(x => x.SubCategories, 
-                                            set =>  {
-                                                        set.Key(k => k.Column("ParentCategoryId"));
+                                            set =>  {   set.Key(k => k.Column("ParentCategoryId"));
                                                         set.Inverse(true);
                                                     },
                                                     ce => ce.OneToMany()));
@@ -48,7 +46,6 @@ namespace Domain.NHByConvention.Mapping
                                                             }));
 
             var mapping = mapper.CompileMappingFor(typeof(Entity).Assembly.GetExportedTypes());
-            //nhConf.AddDeserializedMapping(mapping, "LukaModel");
             configuration.AddDeserializedMapping(mapping, "l337");
          }
     }

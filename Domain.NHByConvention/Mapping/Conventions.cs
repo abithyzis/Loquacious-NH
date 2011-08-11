@@ -23,9 +23,9 @@ namespace Domain.NHByConvention.Mapping
             mapper.IsRootEntity((type, declared) => baseEntityType.Equals(type.BaseType));
 
             mapper.BeforeMapManyToOne += (modelInspector, propertyPath, map) => map.Column(propertyPath.LocalMember.GetPropertyOrFieldType().Name + "Id");
-            mapper.BeforeMapManyToOne += (modelInspector, propertyPath, map) => map.Cascade(Cascade.Persist);
+            //mapper.BeforeMapManyToOne += (modelInspector, propertyPath, map) => map.Cascade(Cascade.Persist);
             mapper.BeforeMapBag += (modelInspector, propertyPath, map) => map.Key(keyMapper => keyMapper.Column(propertyPath.GetContainerEntity(modelInspector).Name + "Id"));
-            mapper.BeforeMapBag += (modelInspector, propertyPath, map) => map.Cascade(Cascade.All);
+            //mapper.BeforeMapBag += (modelInspector, propertyPath, map) => map.Cascade(Cascade.All);
 
             mapper.BeforeMapClass += (modelInspector, type, classCustomizer) =>
                                          {
@@ -34,11 +34,10 @@ namespace Domain.NHByConvention.Mapping
                                              classCustomizer.Table(ReservedTableNameHandler(type));
                                          };
 
-            mapper.Class<Entity>(map =>
-                                     {
-                                         map.Id(x => x.Id, m => m.Generator(Generators.GuidComb));
-                                         map.Version(x => x.Version, m => m.Generated(VersionGeneration.Always));
-                                     });
+            mapper.Class<Entity>(map =>  {
+                                             map.Id(x => x.Id, m => m.Generator(Generators.GuidComb));
+                                             map.Version(x => x.Version, m => m.Generated(VersionGeneration.Always));
+                                         });
         }
 
         private static string ReservedTableNameHandler(Type type)
