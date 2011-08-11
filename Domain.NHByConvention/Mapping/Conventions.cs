@@ -19,17 +19,12 @@ namespace Domain.NHByConvention.Mapping
         public static void WithConventions(this ConventionModelMapper mapper)
         {
             var baseEntityType = typeof (Entity);
-            mapper.IsEntity(
-                (type, declared) => baseEntityType.IsAssignableFrom(type) && baseEntityType != type && !type.IsInterface);
+            mapper.IsEntity((type, declared) => baseEntityType.IsAssignableFrom(type) && baseEntityType != type && !type.IsInterface);
             mapper.IsRootEntity((type, declared) => baseEntityType.Equals(type.BaseType));
 
-            mapper.BeforeMapManyToOne +=
-                (modelInspector, propertyPath, map) =>
-                map.Column(propertyPath.LocalMember.GetPropertyOrFieldType().Name + "Id");
+            mapper.BeforeMapManyToOne += (modelInspector, propertyPath, map) => map.Column(propertyPath.LocalMember.GetPropertyOrFieldType().Name + "Id");
             mapper.BeforeMapManyToOne += (modelInspector, propertyPath, map) => map.Cascade(Cascade.Persist);
-            mapper.BeforeMapBag +=
-                (modelInspector, propertyPath, map) =>
-                map.Key(keyMapper => keyMapper.Column(propertyPath.GetContainerEntity(modelInspector).Name + "Id"));
+            mapper.BeforeMapBag += (modelInspector, propertyPath, map) => map.Key(keyMapper => keyMapper.Column(propertyPath.GetContainerEntity(modelInspector).Name + "Id"));
             mapper.BeforeMapBag += (modelInspector, propertyPath, map) => map.Cascade(Cascade.All);
 
             mapper.BeforeMapClass += (modelInspector, type, classCustomizer) =>
@@ -44,32 +39,6 @@ namespace Domain.NHByConvention.Mapping
                                          map.Id(x => x.Id, m => m.Generator(Generators.GuidComb));
                                          map.Version(x => x.Version, m => m.Generated(VersionGeneration.Always));
                                      });
-
-            mapper.Class<Product>(map => map.Set(x => x.Categories,
-                                                 set =>
-                                                     {
-                                                         set.Key(key =>
-                                                                     {
-                                                                         key.Column("CategoryId");
-                                                                         key.ForeignKey("FK_Product_Category_CategoryId");
-                                                                     });
-                                                         set.Table("Product_Category");
-                                                     },
-                                                 ce => ce.ManyToMany(m => m.Column("ProductId"))));
-
-
-            mapper.Class<Category>(map => map.Set(x => x.Products, 
-                                                set =>
-                                                    {
-                                                        set.Key(key =>
-                                                                    {
-                                                                        key.Column("ProductId");
-                                                                        key.ForeignKey(
-                                                                            "FK_Product_Category_ProductId");
-                                                                    });
-                                                        set.Table("Product_Category");
-                                                    },
-                                                  ce => ce.ManyToMany(m => m.Column("CategoryId"))));
         }
 
         private static string ReservedTableNameHandler(Type type)

@@ -28,10 +28,8 @@ namespace Domain.NHByConvention.Bootstrapper
 
             var mapper = new ConventionModelMapper();
             mapper.WithConventions();
+            mapper.WithMappings(configuration);
 
-            var mapping = mapper.CompileMappingFor(typeof(Entity).Assembly.GetExportedTypes());
-            //nhConf.AddDeserializedMapping(mapping, "LukaModel");
-            configuration.AddDeserializedMapping(mapping, "l337");
             return new ConfigurationProvider(configuration);
         }
     }

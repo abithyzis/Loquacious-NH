@@ -55,6 +55,7 @@
     <Compile Include="Bootstrapper\NHibernateFacility.cs" />
     <Compile Include="Bootstrapper\NHibernateInstaller.cs" />
     <Compile Include="Mapping\Conventions.cs" />
+    <Compile Include="Mapping\Mappings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

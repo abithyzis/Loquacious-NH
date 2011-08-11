@@ -4,9 +4,11 @@ D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Castle.Core.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Castle.Windsor.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Common.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.dll
+D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.NHCommon.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Iesi.Collections.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\NHibernate.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Common.pdb
+D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.NHCommon.pdb
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.pdb
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Castle.Core.xml
 D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Castle.Windsor.pdb
@@ -16,5 +18,3 @@ D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\NHibernate.xml
 D:\Open Source\Loquacious-NH\Domain.NHByCode\obj\Debug\ResolveAssemblyReference.cache
 D:\Open Source\Loquacious-NH\Domain.NHByCode\obj\Debug\Domain.NHByCode.dll
 D:\Open Source\Loquacious-NH\Domain.NHByCode\obj\Debug\Domain.NHByCode.pdb
-D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.NHCommon.dll
-D:\Open Source\Loquacious-NH\Domain.NHByCode\bin\Debug\Domain.NHCommon.pdb

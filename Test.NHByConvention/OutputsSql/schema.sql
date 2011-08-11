@@ -3,8 +3,8 @@
 alter table [Order]  drop constraint FKD1436656AFB5CCE4
 
 
-    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKFA88A7FA9D3EBDB4]') AND parent_object_id = OBJECT_ID('Category'))
-alter table Category  drop constraint FKFA88A7FA9D3EBDB4
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKFA88A7FAEE84E9A8]') AND parent_object_id = OBJECT_ID('Category'))
+alter table Category  drop constraint FKFA88A7FAEE84E9A8
 
 
     if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK_Product_Category_CategoryId]') AND parent_object_id = OBJECT_ID('Product_Category'))
@@ -48,6 +48,7 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
        Version INT not null,
        Name NVARCHAR(255) null,
        Description NVARCHAR(255) null,
+       ParentCategoryId UNIQUEIDENTIFIER null,
        primary key (CategoryId)
     )
 
@@ -90,8 +91,8 @@ alter table OrderItem  drop constraint FK59090D7B39506BFC
         references Customer
 
     alter table Category 
-        add constraint FKFA88A7FA9D3EBDB4 
-        foreign key (CategoryId) 
+        add constraint FKFA88A7FAEE84E9A8 
+        foreign key (ParentCategoryId) 
         references Category
 
     alter table Product_Category 
