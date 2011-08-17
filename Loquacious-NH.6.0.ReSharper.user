@@ -1,66 +1,68 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/d:Persistence/f:ISessionFactory.cs" caret="52" fromTop="3" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/d:Persistence/f:ISessionProvider.cs" caret="113" fromTop="6" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:NHibernateSessionProvider.cs" caret="586" fromTop="20" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Config/f:IConfigurationProvider.cs" caret="253" fromTop="10" />
-      <File id="B1DE0244-6985-4F82-8DFA-320FB19FD8AE/f:PathHelpers.cs" caret="84" fromTop="5" />
-      <File id="B1DE0244-6985-4F82-8DFA-320FB19FD8AE/f:Constants.cs" caret="47" fromTop="2" />
-      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/f:nhibernate.config" caret="1040" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/f:NHibernateSessionFactory.cs" caret="397" fromTop="11" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateInstaller.cs" caret="0" fromTop="0" />
-      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:NHibernateSpecification.cs" caret="1157" fromTop="14" />
-      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/f:nhibernate.ce.config" caret="514" fromTop="6" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateFacility.cs" caret="1231" fromTop="20" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Config/f:ConfigurationProvider.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="354" fromTop="11" />
       <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="945" fromTop="23" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="0" fromTop="0" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="0" fromTop="0" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Entity.cs" caret="0" fromTop="0" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Customer.cs" caret="0" fromTop="0" />
       <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="880" fromTop="19" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="297" fromTop="9" />
-      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:CanCreateConfiguration.cs" caret="185" fromTop="6" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="2094" fromTop="21" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="75" fromTop="4" />
       <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="75" fromTop="4" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="410" fromTop="9" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="1010" fromTop="20" />
+      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:CanCreateConfiguration.cs" caret="596" fromTop="19" />
+      <File id="DCB0FCEF-16D8-44DC-8444-9B457C9A57D0/d:Config/f:ConfigurationProvider.cs" caret="69" fromTop="4" />
+      <File id="DCB0FCEF-16D8-44DC-8444-9B457C9A57D0/d:Config/f:IConfigurationProvider.cs" caret="64" fromTop="3" />
+      <File id="DCB0FCEF-16D8-44DC-8444-9B457C9A57D0/f:NHibernateSessionFactory.cs" caret="71" fromTop="3" />
+      <File id="DCB0FCEF-16D8-44DC-8444-9B457C9A57D0/f:NHibernateSessionProvider.cs" caret="180" fromTop="6" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateInstaller.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Bootstrapper/f:NHibernateFacility.cs" caret="91" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Conventions.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:Mappings.cs" caret="316" fromTop="9" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/f:nhibernate.memory.config" caret="778" fromTop="14" />
+      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/f:app.config" caret="0" fromTop="0" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:NHibernateProfilerInitialiser.cs" caret="407" fromTop="15" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/d:Configurations/f:NHibernateSpecification.cs" caret="521" fromTop="16" />
+      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:NHibernateSpecification.cs" caret="637" fromTop="20" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Bootstrapper/f:NHibernateInstaller.cs" caret="0" fromTop="0" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="962" fromTop="20" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Bootstrapper/f:NHibernateFacility.cs" caret="1279" fromTop="28" />
+      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="781" fromTop="13" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/d:Configurations/f:CanCreateConfiguration.cs" caret="341" fromTop="15" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="3054" fromTop="30" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="1553" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="945" fromTop="15" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="988" fromTop="22" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="353" fromTop="11" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="0" fromTop="0" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="479" fromTop="5" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="280" fromTop="3" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="295" fromTop="11" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="810" fromTop="13" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:OrderItem.cs" caret="123" fromTop="5" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="1046" fromTop="24" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="1043" fromTop="21" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="765" fromTop="20" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Order.cs" caret="234" fromTop="9" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="211" fromTop="8" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="1018" fromTop="24" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderItemMap.cs" caret="350" fromTop="10" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CustomerMap.cs" caret="599" fromTop="17" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:OrderMap.cs" caret="1348" fromTop="26" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="149" fromTop="8" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Product.cs" caret="311" fromTop="12" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="151" fromTop="8" />
-      <File id="7F7CD37B-FC19-4DB6-AE9F-99655DC443BA/f:Category.cs" caret="491" fromTop="16" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:ProductMap.cs" caret="957" fromTop="20" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="1851" fromTop="17" />
-      <File id="1BF0C12D-368A-4CF6-AD1E-A53AB953B992/d:Mapping/f:CategoryMap.cs" caret="2094" fromTop="21" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="146" fromTop="1" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="1458" fromTop="47" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="897" fromTop="23" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="1219" fromTop="17" />
-      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:DataGenerator.cs" caret="615" fromTop="13" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/d:Configurations/f:CanCreateConfiguration.cs" caret="119" fromTop="5" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:NHibernateProfilerInitialiser.cs" caret="414" fromTop="16" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:NHibernateProfilerInitialiser.cs" caret="187" fromTop="6" />
+      <File id="16BD4115-0E05-41EE-8A2E-2FBF543595D6/f:NHibernateProfilerInitialiser.cs" caret="407" fromTop="15" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/d:Configurations/f:NHibernateSpecification.cs" caret="559" fromTop="17" />
+      <File id="F7ACE86E-6BCD-4818-A3BD-10A2D570D171/d:Configurations/f:NHibernateSpecification.cs" caret="615" fromTop="20" />
+      <File id="24E6B33B-B135-4871-BC61-74543117A864/d:Configurations/f:CanCreateConfiguration.cs" caret="626" fromTop="17" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="810" fromTop="7" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="26" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="31" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="14" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="14" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="22" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="22" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="22" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="22" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="22" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2432" fromTop="21" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="3130" fromTop="8" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="3130" fromTop="39" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="3042" fromTop="33" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Bootstrapper/f:NHibernateFacility.cs" caret="1279" fromTop="28" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="497" fromTop="9" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="2574" fromTop="27" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="248" fromTop="8" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="1308" fromTop="14" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="2185" fromTop="26" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Mappings.cs" caret="3054" fromTop="30" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="2162" fromTop="27" />
+      <File id="F3ECF361-05BC-43FF-94BA-0FEA0D89E498/d:Mapping/f:Conventions.cs" caret="1553" fromTop="6" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -83,11 +85,11 @@
   </SettingsComponent>
   <UnitTestSessions>
     <Session>
-      <Name>Session #4</Name>
+      <Name>Session #2</Name>
       <Elements>
-        <UnitTestElement Provider="nUnit" Id="Test.NHByCode.Configurations.CanCreateConfiguration" type="NUnitTestFixtureElement" Project="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" />
-        <UnitTestElement Provider="nUnit" Id="Test.NHByCode.Configurations.CanCreateConfiguration.it_can_create_actual_database_entities" ParentId="Test.NHByCode.Configurations.CanCreateConfiguration" type="NUnitTestElement" TypeName="Test.NHByCode.Configurations.CanCreateConfiguration" MethodName="it_can_create_actual_database_entities" Project="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" />
-        <UnitTestElement Provider="nUnit" Id="Test.NHByCode.Configurations.CanCreateConfiguration.it_can_generate_database_schema_sql_file" ParentId="Test.NHByCode.Configurations.CanCreateConfiguration" type="NUnitTestElement" TypeName="Test.NHByCode.Configurations.CanCreateConfiguration" MethodName="it_can_generate_database_schema_sql_file" Project="F7ACE86E-6BCD-4818-A3BD-10A2D570D171" />
+        <UnitTestElement Provider="nUnit" Id="Test.NHByConvention.Configurations.CanCreateConfiguration" type="NUnitTestFixtureElement" Project="24E6B33B-B135-4871-BC61-74543117A864" />
+        <UnitTestElement Provider="nUnit" Id="Test.NHByConvention.Configurations.CanCreateConfiguration.it_can_create_actual_database_entities" ParentId="Test.NHByConvention.Configurations.CanCreateConfiguration" type="NUnitTestElement" TypeName="Test.NHByConvention.Configurations.CanCreateConfiguration" MethodName="it_can_create_actual_database_entities" Project="24E6B33B-B135-4871-BC61-74543117A864" />
+        <UnitTestElement Provider="nUnit" Id="Test.NHByConvention.Configurations.CanCreateConfiguration.it_can_generate_database_schema_sql_file" ParentId="Test.NHByConvention.Configurations.CanCreateConfiguration" type="NUnitTestElement" TypeName="Test.NHByConvention.Configurations.CanCreateConfiguration" MethodName="it_can_generate_database_schema_sql_file" Project="24E6B33B-B135-4871-BC61-74543117A864" />
       </Elements>
     </Session>
   </UnitTestSessions>
@@ -100,15 +102,15 @@
       <Item value="null" priority="31" />
       <Item value="ctor" priority="31" />
       <Item value="Configuration`0" priority="31" />
-      <Item value="configuration" priority="96" />
+      <Item value="configuration" priority="160" />
       <Item value="protected" priority="96" />
       <Item value="private" priority="63" />
       <Item value="static" priority="127" />
       <Item value="ConfigurationDescriptor" priority="31" />
       <Item value="new" priority="159" />
-      <Item value="ConfigurationProvider" priority="202" />
+      <Item value="ConfigurationProvider" priority="234" />
       <Item value="var" priority="95" />
-      <Item value="Category`0" priority="31" />
+      <Item value="Category`0" priority="63" />
       <Item value="configFilePath" priority="58" />
       <Item value="public" priority="127" />
       <Item value="SessionFactory" priority="58" />
@@ -121,7 +123,7 @@
       <Item value="ce" priority="127" />
       <Item value="Upgrade`0" priority="31" />
       <Item value="this" priority="63" />
-      <Item value="mapper" priority="128" />
+      <Item value="mapper" priority="160" />
       <Item value="generatorMapping" priority="31" />
       <Item value="Generators`0" priority="63" />
       <Item value="classCustomizer" priority="63" />
@@ -152,6 +154,9 @@
       <Item value="Set`1" priority="31" />
       <Item value="set" priority="63" />
       <Item value="key" priority="31" />
+      <Item value="ConventionModelMapper`0" priority="31" />
+      <Item value="mapping" priority="63" />
+      <Item value="Product`0" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.Category">
       <Item value="Name" priority="26" />
@@ -173,9 +178,11 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Cfg.Configuration">
       <Item value="Configure`0" priority="26" />
+      <Item value="CreateMappings`0" priority="26" />
+      <Item value="AddDeserializedMapping`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.NHByCode.Config.IConfigurationProvider">
-      <Item value="Configuration" priority="76" />
+      <Item value="Configuration" priority="103" />
       <Item value="BuildSessionFactory`0" priority="22" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeEngine">
@@ -258,11 +265,20 @@
       <Item value="Column`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.Product">
-      <Item value="Categories" priority="26" />
+      <Item value="Categories" priority="82" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.ISetPropertiesMapper`2">
       <Item value="Table`0" priority="26" />
       <Item value="Key`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Dialect.Dialect">
+      <Item value="GetDialect`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.IClassMapper`1">
+      <Item value="Set`1" priority="55" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Mapping.ByCode.ConventionModelMapper">
+      <Item value="WithMappings`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
