@@ -1,6 +1,6 @@
 D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\App_Data\tests.sdf
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\nhibernate.x.config
 D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\nhibernate.config
-D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\nhibernate.ce.config
 D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\amd64\sqlcecompact40.dll
 D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\amd64\sqlceme40.dll
 D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\amd64\sqlceqp40.dll
@@ -41,3 +41,5 @@ D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\Common.pdb
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\ResolveAssemblyReference.cache
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\Test.NHByCode.dll
 D:\Open Source\Loquacious-NH\Test.NHByCode\obj\Debug\Test.NHByCode.pdb
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\log4net.dll
+D:\Open Source\Loquacious-NH\Test.NHByCode\bin\Debug\log4net.xml
