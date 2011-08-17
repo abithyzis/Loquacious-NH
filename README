@@ -1,4 +1,5 @@
-After spending the last few months learning NHibernate, starting with hbm xml, to Fluent NHibernate, then Loquacious sexy mapping was released.  Herewith is a solution, with tests and ioc, which is over commented during my learning.
+After spending the last few months learning NHibernate, starting with hbm xml, to Fluent NHibernate, then Loquacious sexy mapping was released.  
+Herewith is a solution, with tests and ioc, for a fully working skeleton demonstrating both explicit mapping by code and mapping by convention.
 
 Domain; details the problem domain ... a small Customer, Order, Product etc domain but with all the fun relationships!!
 
